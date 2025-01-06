@@ -3,7 +3,7 @@ from flask_cors import CORS  # Import CORS here
 import mysql.connector  # Import mysql.connector here
 
 app = Flask(__name__)
-
+CORS(app)
 # Database connection configuration
 db_config = {
     'host': 'Hemu',
